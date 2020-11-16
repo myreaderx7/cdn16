@@ -1,0 +1,57 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8" /><title>Login - Qiita Team</title><meta content="width=device-width,initial-scale=1" name="viewport" /><link rel="shortcut icon" type="image/x-icon" href="https://cdn.qiita.com/assets/favicons/team/production-ea497381ce9c9085a850ea45317d591a.ico" /><link rel="apple-touch-icon" type="image/png" href="https://cdn.qiita.com/assets/favicons/team/apple-touch-icon-a4e9da1df25a27de9b1eb654d9fa3f5b.png" /><link rel="stylesheet" media="all" href="https://cdn.qiita.com/assets/teams-e44da4b5a3e5159b76daeff5c2980ada.min.css" /><meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="joIw3ppbrnB6crx6QXJpY61rd6GmV6/wR1HOr/B92UnBv8DegFXd/Cd9ya4PDRIF/t+2I/Dld5Q7wxEko84zew==" /></head><body class="teamBase without-js  "><script>
+  document.body.className = document.body.className.replace('without-js', '') + ' with-js';
+  window.Qiita = {"asset_host":"cdn.qiita.com","action_path":"shared/sessions#login","flash":{},"config":{"default_locale":"en","locale":"en"},"user":null,"GIT_BRANCH":null};
+
+</script>
+<script>Qiita.TeamTemplates = {
+    // Registered functions.
+    _map: {},
+    // Queued selectors.
+    _queues: {},
+    // Whether the name has already been registered or not.
+    isRegistered: function (name) {
+        return name in this._map;
+    },
+    // Register the function as the name.
+    register: function (name, func) {
+        this._map[name] = func;
+    },
+    // Push the selector to a queue to render when corresponding
+    // template is registered.
+    render: function (name, selector) {
+        this._queues[name] || (this._queues[name] = []);
+        this._queues[name].push(selector);
+    }
+}</script><div class="headerContainer headerContainer-team" role="navigation"><script type="application/json" id="js-react-on-rails-context">{"railsEnv":"production","inMailer":false,"i18nLocale":"en","i18nDefaultLocale":"en","href":"https://crowdworks.qiita.com/login?redirect_to=https%3A%2F%2Fcrowdworks.qiita.com%2Ffiles%2Ffddd2f90-5c31-35b8-ee0a-ac939dc1817a.png","location":"/login?redirect_to=https%3A%2F%2Fcrowdworks.qiita.com%2Ffiles%2Ffddd2f90-5c31-35b8-ee0a-ac939dc1817a.png","scheme":"https","host":"crowdworks.qiita.com","port":null,"pathname":"/login","search":"redirect_to=https%3A%2F%2Fcrowdworks.qiita.com%2Ffiles%2Ffddd2f90-5c31-35b8-ee0a-ac939dc1817a.png","httpAcceptLanguage":"en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7","serverSide":false}</script>
+<div id="HeaderContainer-react-component-8c3b4986-74c2-4169-8035-02172c622da6"></div>
+      <script type="application/json" class="js-react-on-rails-component" data-component-name="HeaderContainer" data-dom-id="HeaderContainer-react-component-8c3b4986-74c2-4169-8035-02172c622da6">{"user":null,"team":null,"realms":[{"human_name":"Qiita","is_current_realm":false,"is_qiita":true,"is_qiita_team":false,"logged_in_user":null,"team_id":null,"url":"https://qiita.com/"}],"team_find_url":"https://teams-center.qiita.com/find_team","initial_unread_count":null,"news":null,"show_post_menu":false,"show_search_menu":false,"is_fluid":false,"locale":"en","show_latest_user_article_button":false,"show_latest_team_article_button":false,"edit_exclude_tags_url":"/settings/exclude_search_tags"}</script>
+      
+</div><div class="teamMain"><div class="teamMain_inner"><div class="row"><div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1"><div class="sessionsLayoutHeader"><div class="sessionsLayoutHeader_title text-center">Log in to the Team</div></div><hr /><div class="row"><div class="col-sm-6"><form class="btn btn-github-inverse btn-block btn-lg" method="post" action="https://oauth.qiita.com/auth/github?callback_action=login_or_signup&amp;realm=4806&amp;redirect_to=https%3A%2F%2Fcrowdworks.qiita.com%2Ffiles%2Ffddd2f90-5c31-35b8-ee0a-ac939dc1817a.png"><button type="submit"><i class="fa fa-github"></i>Log in with GitHub</button><input type="hidden" name="authenticity_token" value="K0qaL+3Nzd9vSOBpWoLTdCQ7QzK4CfXICeRxIxUIg1h/B+BTSrkVPXs/Gj5X9YOHbUVA8S4rJOZrvf85D28SKQ==" /></form><form class="btn btn-twitter-inverse btn-block btn-lg" method="post" action="https://oauth.qiita.com/auth/twitter?callback_action=login_or_signup&amp;realm=4806&amp;redirect_to=https%3A%2F%2Fcrowdworks.qiita.com%2Ffiles%2Ffddd2f90-5c31-35b8-ee0a-ac939dc1817a.png"><button type="submit"><i class="fa fa-twitter"></i>Log in with Twitter</button><input type="hidden" name="authenticity_token" value="LQSI+cgs1cWibGuY9bxtD63kFRLBHzV8w/J9REYvNEMnzbNH+KBP9TjiH/1XU/QUkcz+Qt4Mldf1P9iU2Jb2HA==" /></form><form class="btn btn-google-inverse btn-block btn-lg" method="post" action="https://oauth.qiita.com/auth/google?callback_action=login_or_signup&amp;realm=4806&amp;redirect_to=https%3A%2F%2Fcrowdworks.qiita.com%2Ffiles%2Ffddd2f90-5c31-35b8-ee0a-ac939dc1817a.png"><button type="submit"><i class="fa fa-google"></i>Log in with Google</button><input type="hidden" name="authenticity_token" value="mKkTZHuJyPqljnkQVRl0/3GaIGiO+TvHytN8uklCXKnkJuiwpqB9HeOchvZefy0HBS5MIrLPZas8UairBCFz1g==" /></form><div class="sessionsLayout_guide">If you do not have a Qiita account, <a href="/signup?redirect_to=https%3A%2F%2Fcrowdworks.qiita.com%2Ffiles%2Ffddd2f90-5c31-35b8-ee0a-ac939dc1817a.png">sign up</a> in 30 seconds.</div></div><div class="col-sm-6 sessionsLayoutFormColumn"><form class="loginSessionsForm" autocomplete="off" data-event_name="Login with password" action="/login" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="K0V3WVwtInYqKGms9RHY0Y1Waz0XYVLb/ZRTiFWfE6wDD6zNHMiBa0dh8c9yvct5O6Mop8ss63Is2tiFiZo/rg==" /><div class="form-group"><input type="text" name="identity" id="identity" placeholder="Username or Email" autofocus="autofocus" class="form-control" /></div><div class="form-group"><input type="password" name="password" id="password" placeholder="Password" class="form-control" /><div class="help-block"><a href="https://crowdworks.qiita.com/sessions/forgot_password">Forgot Password?</a></div></div><div class="form-group"><input type="submit" name="commit" value="Log in to the Team" class="btn btn-primary btn-block btn-lg loginSessionsForm_submit" data-disable-with="Log in" /></div><input type="hidden" name="redirect_to" id="redirect_to" value="https://crowdworks.qiita.com/files/fddd2f90-5c31-35b8-ee0a-ac939dc1817a.png" /></form></div></div></div></div></div></div><footer class="footer"><div class="footer_inner"><div class="footer_container"><ul class="footer_links-left"><li class="footer_link"><a class="footer_copyright" href="http://increments.co.jp">© 2011-2020 Increments Inc.</a></li><li class="footer_link"><a href="https://teams-center.qiita.com/terms">Terms</a></li><li class="footer_link"><a target="_blank" href="http://help.qiita.com/ja/articles/qiita-community-guideline">Guideline</a></li><li class="footer_link"><a href="https://qiita.com/privacy">Privacy</a></li><li class="footer_link"><a href="https://teams.qiita.com/help/">Help</a></li></ul><ul class="footer_links-right"><li class="footer_link"><a href="https://qiita.com/about">About</a></li><li class="footer_link"><a href="https://blog.qiita.com">Blog</a></li><li class="footer_link"><a href="https://qiita.com/api/v2/docs">API</a></li><li class="footer_link"><a href="https://jobs.qiita.com?utm_source=qiita&amp;utm_medium=referral&amp;utm_content=footer">Qiita Jobs</a></li><li class="footer_link"><a href="https://teams.qiita.com/">Qiita Team</a></li><li class="footer_link"><a target="_blank" href="https://zine.qiita.com?utm_source=qiita&amp;utm_medium=referral&amp;utm_content=footer">Qiita:Zine</a></li><li class="footer_link"><a target="_blank" href="https://qiita.com/ads?utm_source=qiita&amp;utm_medium=referral&amp;utm_content=footer">Advertisement</a></li><li class="footer_link"><a class="js-public-form-feedback-link" data-target=".js-feedback-form" data-toggle="modal" href=""><i class="fa fa-heart"></i> Feedback <i class="fa fa-caret-down"></i></a></li></ul></div></div></footer><div class="js-feedback-form modal fade feedbackForm"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button name="button" type="submit" class="close" data-dismiss="modal">&times;</button><h4 class="modal-title">Feedback</h4></div><div class="modal-body"><form class="js-feedback-form-form" action="/feedbacks" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="XXetXeEyOX2gJSUOEtDtCYqQf2Jy4vDWsImz++QF6pBKdH9a8wQ9qAhpQ6GqNakctYPn1HO0OLtvSDhCJFVklA==" /><input type="hidden" name="redirect_path" id="redirect_path" value="/login?redirect_to=https%3A%2F%2Fcrowdworks.qiita.com%2Ffiles%2Ffddd2f90-5c31-35b8-ee0a-ac939dc1817a.png" /><div class="form-group"><textarea name="feedback[message]" id="feedback_message" class="form-control js-feedback-form-text-area" placeholder="Please give us any feedback about Qiita." required="required" rows="5">
+</textarea></div><div class="feedbackForm_submitButtonContainer"><button name="button" type="submit" class="btn btn-primary feedbackForm_submitButton"><i class="fa fa-send"></i> Submit</button><p class="feedbackForm_note">We don&#39;t reply to any feedback.<br />If you need help with Qiita, please send a support request from <a href="https://increments.zendesk.com/hc/ja/requests/new">here</a>.</p></div><div style="position:fixed;top:-99999px;opacity:0.0001;"><input name="feedback[name]" type="text" /></div></form></div></div></div></div><script src="https://cdn.qiita.com/assets/teams-0d30530392a657e6d6f259a7df6e7d9c.min.js"></script><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+</script>
+  <script src="//cdn.optimizely.com/js/52738645.js" async></script>
+  <script>
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-24675221-10']);
+    _gaq.push(['_setDomainName', 'qiita.com']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+  <script>
+    ga('create', 'UA-24675221-13', {
+      
+    });
+    ga('require', 'displayfeatures');
+    ga('set', 'forceSSL', true);
+    ga('send', 'pageview');
+  </script>
+</body></html>
